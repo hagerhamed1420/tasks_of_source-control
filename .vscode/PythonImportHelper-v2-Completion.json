@@ -40,7 +40,7 @@
         "kind": 2,
         "importPath": "Calculations ",
         "description": "Calculations ",
-        "peekOfCode": "def add(a, b):\n    return a + b\ndef subtract(a, b):\n    return a - b\ndef multiply(a, b):\n    return a * b",
+        "peekOfCode": "def add(a, b):\n    return a + b\ndef subtract(a, b):\n    return a - b\ndef multiply(a, b):\n    return a * b\nprint (\"my name is joe\")",
         "detail": "Calculations ",
         "documentation": {}
     },
@@ -49,7 +49,7 @@
         "kind": 2,
         "importPath": "Calculations ",
         "description": "Calculations ",
-        "peekOfCode": "def subtract(a, b):\n    return a - b\ndef multiply(a, b):\n    return a * b",
+        "peekOfCode": "def subtract(a, b):\n    return a - b\ndef multiply(a, b):\n    return a * b\nprint (\"my name is joe\")",
         "detail": "Calculations ",
         "documentation": {}
     },
@@ -58,7 +58,7 @@
         "kind": 2,
         "importPath": "Calculations ",
         "description": "Calculations ",
-        "peekOfCode": "def multiply(a, b):\n    return a * b",
+        "peekOfCode": "def multiply(a, b):\n    return a * b\nprint (\"my name is joe\")",
         "detail": "Calculations ",
         "documentation": {}
     },
