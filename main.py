@@ -9,6 +9,7 @@ rows = [
     ["Ali", 17, 88, 75],
     ["Sara", 16, 92, 81],
     ["Omar", 18, 79, 90],
+    ["das",45,87,14]
 ]
 
 # Write to CSV file

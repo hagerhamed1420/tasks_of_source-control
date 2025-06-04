@@ -67,7 +67,7 @@
         "kind": 5,
         "importPath": "main",
         "description": "main",
-        "peekOfCode": "rows = [\n    [\"Name\", \"Age\", \"Math\", \"English\"],\n    [\"Ali\", 17, 88, 75],\n    [\"Sara\", 16, 92, 81],\n    [\"Omar\", 18, 79, 90],\n]\n# Write to CSV file\nwith open(\"students.csv\", mode=\"w\", newline='') as file:\n    writer = csv.writer(file)\n    writer.writerows(rows)",
+        "peekOfCode": "rows = [\n    [\"Name\", \"Age\", \"Math\", \"English\"],\n    [\"Ali\", 17, 88, 75],\n    [\"Sara\", 16, 92, 81],\n    [\"Omar\", 18, 79, 90],\n    [\"das\",45,87,14]\n]\n# Write to CSV file\nwith open(\"students.csv\", mode=\"w\", newline='') as file:\n    writer = csv.writer(file)",
         "detail": "main",
         "documentation": {}
     }
