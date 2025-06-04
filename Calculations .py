@@ -9,6 +9,13 @@ def subtract(a, b):
 
 def multiply(a, b):
     return a * b
+<<<<<<< HEAD
  
  
 print ("my name is joe")
+=======
+def AbdoDivide(a, b):
+    if b == 0:
+        raise ValueError("Cannot divide by zero")
+    return a / b
+>>>>>>> abdelrhman

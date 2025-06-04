@@ -40,7 +40,7 @@
         "kind": 2,
         "importPath": "Calculations ",
         "description": "Calculations ",
-        "peekOfCode": "def add(a, b):\n    return a + b\ndef subtract(a, b):\n    return a - b\ndef multiply(a, b):\n    return a * b\nprint (\"my name is joe\")",
+        "peekOfCode": "def add(a, b):\n    return a + b\ndef subtract(a, b):\n    return a - b\ndef multiply(a, b):\n    return a * b\n<<<<<<< HEAD\nprint (\"my name is joe\")\n=======\ndef AbdoDivide(a, b):",
         "detail": "Calculations ",
         "documentation": {}
     },
@@ -49,7 +49,7 @@
         "kind": 2,
         "importPath": "Calculations ",
         "description": "Calculations ",
-        "peekOfCode": "def subtract(a, b):\n    return a - b\ndef multiply(a, b):\n    return a * b\nprint (\"my name is joe\")",
+        "peekOfCode": "def subtract(a, b):\n    return a - b\ndef multiply(a, b):\n    return a * b\n<<<<<<< HEAD\nprint (\"my name is joe\")\n=======\ndef AbdoDivide(a, b):\n    if b == 0:\n        raise ValueError(\"Cannot divide by zero\")",
         "detail": "Calculations ",
         "documentation": {}
     },
@@ -58,7 +58,16 @@
         "kind": 2,
         "importPath": "Calculations ",
         "description": "Calculations ",
-        "peekOfCode": "def multiply(a, b):\n    return a * b\nprint (\"my name is joe\")",
+        "peekOfCode": "def multiply(a, b):\n    return a * b\n<<<<<<< HEAD\nprint (\"my name is joe\")\n=======\ndef AbdoDivide(a, b):\n    if b == 0:\n        raise ValueError(\"Cannot divide by zero\")\n    return a / b\n>>>>>>> abdelrhman",
+        "detail": "Calculations ",
+        "documentation": {}
+    },
+    {
+        "label": "AbdoDivide",
+        "kind": 2,
+        "importPath": "Calculations ",
+        "description": "Calculations ",
+        "peekOfCode": "def AbdoDivide(a, b):\n    if b == 0:\n        raise ValueError(\"Cannot divide by zero\")\n    return a / b\n>>>>>>> abdelrhman",
         "detail": "Calculations ",
         "documentation": {}
     },
@@ -68,51 +77,6 @@
         "importPath": "main",
         "description": "main",
         "peekOfCode": "rows = [\n    [\"Name\", \"Age\", \"Math\", \"English\"],\n    [\"Ali\", 17, 88, 75],\n    [\"Sara\", 16, 92, 81],\n    [\"Omar\", 18, 79, 90],\n]\n# Write to CSV file\nwith open(\"students.csv\", mode=\"w\", newline='') as file:\n    writer = csv.writer(file)\n    writer.writerows(rows)",
-        "detail": "main",
-        "documentation": {}
-    },
-    {
-        "label": "x",
-        "kind": 5,
-        "importPath": "main",
-        "description": "main",
-        "peekOfCode": "x = 10\ny = 5\nsum_result = x + y\nprint(\"Sum of\", x, \"+\", y, \"=\", sum_result)\nsub_result = x - y\nprint(\"Subtraction of\", x, \"-\", y, \"=\", sub_result)\nmul_result = x * y\nprint(\"Multiplication of\", x, \"*\", y, \"=\", mul_result)",
-        "detail": "main",
-        "documentation": {}
-    },
-    {
-        "label": "y",
-        "kind": 5,
-        "importPath": "main",
-        "description": "main",
-        "peekOfCode": "y = 5\nsum_result = x + y\nprint(\"Sum of\", x, \"+\", y, \"=\", sum_result)\nsub_result = x - y\nprint(\"Subtraction of\", x, \"-\", y, \"=\", sub_result)\nmul_result = x * y\nprint(\"Multiplication of\", x, \"*\", y, \"=\", mul_result)",
-        "detail": "main",
-        "documentation": {}
-    },
-    {
-        "label": "sum_result",
-        "kind": 5,
-        "importPath": "main",
-        "description": "main",
-        "peekOfCode": "sum_result = x + y\nprint(\"Sum of\", x, \"+\", y, \"=\", sum_result)\nsub_result = x - y\nprint(\"Subtraction of\", x, \"-\", y, \"=\", sub_result)\nmul_result = x * y\nprint(\"Multiplication of\", x, \"*\", y, \"=\", mul_result)",
-        "detail": "main",
-        "documentation": {}
-    },
-    {
-        "label": "sub_result",
-        "kind": 5,
-        "importPath": "main",
-        "description": "main",
-        "peekOfCode": "sub_result = x - y\nprint(\"Subtraction of\", x, \"-\", y, \"=\", sub_result)\nmul_result = x * y\nprint(\"Multiplication of\", x, \"*\", y, \"=\", mul_result)",
-        "detail": "main",
-        "documentation": {}
-    },
-    {
-        "label": "mul_result",
-        "kind": 5,
-        "importPath": "main",
-        "description": "main",
-        "peekOfCode": "mul_result = x * y\nprint(\"Multiplication of\", x, \"*\", y, \"=\", mul_result)",
         "detail": "main",
         "documentation": {}
     }
