@@ -17,3 +17,5 @@ with open("students.csv", mode="w", newline='') as file:
     writer.writerows(rows)
 
 print("CSV file 'students.csv' created successfully.")
+
+print("Hello from main script! i'am abdo")
