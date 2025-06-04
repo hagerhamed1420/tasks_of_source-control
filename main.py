@@ -17,3 +17,16 @@ with open("students.csv", mode="w", newline='') as file:
     writer.writerows(rows)
 
 print("CSV file 'students.csv' created successfully.")
+
+
+x = 10
+y = 5
+sum_result = x + y
+print("Sum of", x, "+", y, "=", sum_result)
+ 
+
+sub_result = x - y
+print("Subtraction of", x, "-", y, "=", sub_result)
+
+mul_result = x * y
+print("Multiplication of", x, "*", y, "=", mul_result)
