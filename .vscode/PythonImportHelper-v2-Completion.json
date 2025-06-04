@@ -1,0 +1,74 @@
+[
+    {
+        "label": "csv",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "csv",
+        "description": "csv",
+        "detail": "csv",
+        "documentation": {}
+    },
+    {
+        "label": "add",
+        "kind": 2,
+        "importPath": "project_demo.Calculations",
+        "description": "project_demo.Calculations",
+        "peekOfCode": "def add(a, b):\n    return a + b\n# Function to subtract two numbers\ndef subtract(a, b):\n    return a - b\n# Function to multiply two numbers\ndef multiply(a, b):\n    return a * b",
+        "detail": "project_demo.Calculations",
+        "documentation": {}
+    },
+    {
+        "label": "subtract",
+        "kind": 2,
+        "importPath": "project_demo.Calculations",
+        "description": "project_demo.Calculations",
+        "peekOfCode": "def subtract(a, b):\n    return a - b\n# Function to multiply two numbers\ndef multiply(a, b):\n    return a * b",
+        "detail": "project_demo.Calculations",
+        "documentation": {}
+    },
+    {
+        "label": "multiply",
+        "kind": 2,
+        "importPath": "project_demo.Calculations",
+        "description": "project_demo.Calculations",
+        "peekOfCode": "def multiply(a, b):\n    return a * b",
+        "detail": "project_demo.Calculations",
+        "documentation": {}
+    },
+    {
+        "label": "add",
+        "kind": 2,
+        "importPath": "Calculations ",
+        "description": "Calculations ",
+        "peekOfCode": "def add(a, b):\n    return a + b\ndef subtract(a, b):\n    return a - b\ndef multiply(a, b):\n    return a * b",
+        "detail": "Calculations ",
+        "documentation": {}
+    },
+    {
+        "label": "subtract",
+        "kind": 2,
+        "importPath": "Calculations ",
+        "description": "Calculations ",
+        "peekOfCode": "def subtract(a, b):\n    return a - b\ndef multiply(a, b):\n    return a * b",
+        "detail": "Calculations ",
+        "documentation": {}
+    },
+    {
+        "label": "multiply",
+        "kind": 2,
+        "importPath": "Calculations ",
+        "description": "Calculations ",
+        "peekOfCode": "def multiply(a, b):\n    return a * b",
+        "detail": "Calculations ",
+        "documentation": {}
+    },
+    {
+        "label": "rows",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "rows = [\n    [\"Name\", \"Age\", \"Math\", \"English\"],\n    [\"Ali\", 17, 88, 75],\n    [\"Sara\", 16, 92, 81],\n    [\"Omar\", 18, 79, 90],\n]\n# Write to CSV file\nwith open(\"students.csv\", mode=\"w\", newline='') as file:\n    writer = csv.writer(file)\n    writer.writerows(rows)",
+        "detail": "main",
+        "documentation": {}
+    }
+]
