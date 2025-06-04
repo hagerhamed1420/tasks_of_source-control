@@ -17,3 +17,6 @@ with open("students.csv", mode="w", newline='') as file:
     writer.writerows(rows)
 
 print("CSV file 'students.csv' created successfully.")
+
+for i in range (1,10):
+    print (i)
