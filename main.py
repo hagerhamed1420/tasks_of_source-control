@@ -20,3 +20,15 @@ print("CSV file 'students.csv' created successfully.")
 
 for i in range (1,10):
     print (i)
+
+x = 10
+y = 5
+sum_result = x + y
+print("Sum of", x, "+", y, "=", sum_result)
+ 
+
+sub_result = x - y
+print("Subtraction of", x, "-", y, "=", sub_result)
+
+mul_result = x * y
+print("Multiplication of", x, "*", y, "=", mul_result)
